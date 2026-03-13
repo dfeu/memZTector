@@ -1,8 +1,6 @@
 # MemZTector
 MemZTector is a PoC developed in the paper "From RAM to Topology: Forensic Analysis of ZeroTier One-Systems"
 
-# ZeroTier Memory Artifact Extractor
-
 This proof of concept extracts selected ZeroTier-related artefacts from a raw memory dump. It identifies the network ID, the configured target subnet, the optional network name, IPv4 addresses within the detected subnet, and public endpoint addresses found in ZeroTier-related JSON-like structures.
 
 ## Features
